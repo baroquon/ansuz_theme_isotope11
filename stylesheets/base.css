@@ -108,23 +108,23 @@
       margin: 0;
       padding: 0;
     }
-      .footer-items-container{
+      .page.footer{
         width: 960px;
         margin: 0 auto;
       }
-        .footer-items{
+        #footer .page-plugin{
           float: left;
           width: 190px;
           height: 257px;
           border-left: 1px solid #77a0a1;
         }
-        .footer-items.odd{
+        #footer .page-plugin-0, #footer .page-plugin-2, #footer .page-plugin-4 {
           background: transparent url(/themes/ansuz_theme_isotope11/images/footer-cont-bg.png) no-repeat left top;
         }
-        .footer-items.last{
+        #footer .page-plugin-4{ 
           border-right: 1px solid #77a0a1;
         }
-        .footer-items h2, .footer-items h5, .footer-items p{
+        #footer h2, #footer h5, #footer p{
           margin-left: 10px;
         }
         .contact-container{

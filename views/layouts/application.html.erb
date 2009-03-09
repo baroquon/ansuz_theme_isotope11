@@ -1,6 +1,6 @@
 <!-- Generated Using Ansuz CMS -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <title><%= title_helper %></title>
@@ -12,24 +12,18 @@
     <link rel="icon"          href="favicon.ico" type="image/vnd.microsoft.icon" />
     <%= manage_ansuz_stylesheets %>
     <%= manage_ansuz_javascripts %>
-	  <%= theme_stylesheet_link_tag 'isotope11', 'base' -%>
+	  <%= theme_stylesheet_link_tag 'ansuz_theme_isotope11', 'base' -%>
   </head>
   <body>
     <div id='wrapper'>
       <div id='content_wrapper'>
         <div id="main">
           <div id='header'>
-            <h1>
-              <span class='logo'></span>
               <span class='logotext'><%= get_setting('site_title') %></span>
-            </h1>
-            <span class='credits'>
-              Custom software development for businesses.
-            </span>
-            <%= show_testimonials -%>
+            <%= render :partial => "page/top_nav" -%>
           </div>
-          <%= render :partial => "page/top_nav" -%>
           <div id='content'>
+            <div class='show-box'>
             <%= render :partial => "page/breadcrumb" if (@page && (@page != @root)) -%>
             <%= @content_for_layout -%>
             <%= render :partial => "page/child_nav" if (@page && (!@page.children.empty?)) -%>

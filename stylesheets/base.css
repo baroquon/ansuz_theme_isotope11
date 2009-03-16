@@ -13,7 +13,7 @@
   }
 #content h2{    
     width: 960px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     text-align: left;
   } 
   h3{
@@ -29,6 +29,7 @@
   p{
     color: #666;
     font-size: 1em;
+    margin-bottom: 10px;
   }
   a{
     color:#77A0A1;

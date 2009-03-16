@@ -155,11 +155,18 @@
     clear: both;
   }
   .two-col-heading{
+    background-color: #deeaee;
+    color: #deeaee;
     width: 479px;
     float: left;
-    margin: 0;
+    margin: 0 0 10px;
     padding: 0;
     font-size: 2em;
     border-bottom: 1px solid #666;
     text-align: left;
+  }
+  .two-col-heading h3{
+    padding: 0;
+    font-size: 2em;
+    margin-left: 10px;
   }

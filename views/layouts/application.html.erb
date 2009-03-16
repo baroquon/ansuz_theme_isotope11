@@ -24,6 +24,7 @@
           </div>
           <div id='content'>
             <div class='show-box'>
+            </div>
             <%= render :partial => "page/breadcrumb" if (@page && (@page != @root)) -%>
             <%= @content_for_layout -%>
             <%= render :partial => "page/child_nav" if (@page && (!@page.children.empty?)) -%>

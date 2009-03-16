@@ -171,3 +171,15 @@
     margin-left: 10px;
     color: #666;
   }
+  .contact .page-plugin-1{
+    width: 479px;
+    float: right;
+    text-align: left;
+    margin: 0 0 0;
+  }
+  .contact .page-plugin-2{
+    width: 479px;
+    float: left;
+    text-align: left;
+    margin: 0 0 10px;
+  }

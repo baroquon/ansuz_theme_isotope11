@@ -85,7 +85,13 @@
         width: 942px;
         height: 182px;
         margin: 0 auto;
+        position: relative;
       }
+        #breadcrumb{
+          position: absolute;
+          left: 0;
+          top: -20px; 
+        }
       .main-content{
         margin: 0 auto;
         width: 942px;

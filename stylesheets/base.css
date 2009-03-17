@@ -186,6 +186,9 @@
   #footer .footer .page-plugin-1{
     width: 190px;
   }
+  #footer .footer th{
+    color: #77A0A1;
+  }
   #footer .footer .page-plugin-1 div{
     background-color: transparent !important;
     border: 0 !important;

@@ -183,3 +183,7 @@
     text-align: left;
     margin: 0 0 10px;
   }
+  #footer .footer .page-plugin-1 div{
+    background-color: transparent !important;
+    border: 0 !important;
+  }

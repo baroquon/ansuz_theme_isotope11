@@ -115,11 +115,15 @@
             margin: 5px;
           }
           .main-content h3{
-            color: #046380;
-            width: 800px;
-            margin: 10px auto;
-            text-indent: 10px;
+            background-color:#F9F3AC;
+            border:1px solid #ccc;
+            color:#046380;
+            margin:20px auto;
+            padding:15px;
+            text-align:center;
+            text-indent:10px;
           }
+
     #footer{
       width: 100%;
       border-top: 4px solid #0b5066;

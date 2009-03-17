@@ -115,9 +115,10 @@
             margin: 5px;
           }
           .main-content h3{
-            color: #666;
+            color: #046380;
             width: 800px;
             margin: 10px auto;
+            text-indent: 10px;
           }
     #footer{
       width: 100%;

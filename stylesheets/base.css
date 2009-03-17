@@ -184,7 +184,7 @@
     margin: 0 0 10px;
   }
   #footer .footer .page-plugin-1{
-    width: 257px;
+    width: 250px;
   }
   #footer .footer .page-plugin-1 div{
     background-color: transparent !important;
@@ -194,6 +194,7 @@
   }
   #footer .footer .page-plugin-1 div h3{
     padding-top:10px;
+    text-indent:19px;
   }
   #footer .footer .page-plugin-1 div ul li{
     margin-top: 10px !important;

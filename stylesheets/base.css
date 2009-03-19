@@ -235,3 +235,19 @@
     text-indent: 0;
     margin-bottom: 10px;
   }
+  .flickr-js-images img{
+  width: 170px;
+  margin: 0 auto;
+}
+.flickr-js-images{
+  width: 170px !important;
+  height: 180px !important;
+  margin: 10px 10px 0;
+}
+.flickrNav{
+  text-align:center;
+}
+.flickrNav a{
+  margin-right: 10px;
+}
+

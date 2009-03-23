@@ -234,6 +234,7 @@
     color: #666;
     text-indent: 0;
     margin-bottom: 10px;
+    text-transform: lowercase;
   }
   .flickr-js-images img{
   width: 170px;

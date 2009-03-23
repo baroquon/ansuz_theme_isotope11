@@ -267,14 +267,16 @@
 }
 
 .tech-list{
-border-bottom:7px solid #9BAFF1;
-border-collapse:collapse;
-border-top:7px solid #9BAFF1;
-font-family:"Lucida Sans Unicode","Lucida Grande",Sans-Serif;
-font-size:12px;
-margin:20px;
-text-align:center;
-width:480px;}
+  border-bottom:7px solid #9BAFF1;
+  border-collapse:collapse;
+  border-top:7px solid #9BAFF1;
+  font-family:"Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+  font-size:12px;
+  margin:20px 0;
+  text-align:center;
+  width:780px;
+  float: right;
+}
 .tech-list th{
   background:#E8EDFF none repeat scroll 0 0;
   border-left:1px solid #9BAFF1;
@@ -283,6 +285,7 @@ width:480px;}
   font-size:13px;
   font-weight:normal;
   padding:8px;
+  width: 20%;
 }
 .tech-list td{
   background:#E8EDFF none repeat scroll 0 0;

@@ -296,7 +296,7 @@
   padding:8px;
   text-align:left;
 }
-#page-wrap 									{ width: 500px; margin: 25px auto; padding-top: 40px; position: relative; min-height: 500px;
+#page-wrap 									{ width: 500px; margin: 25px 0; padding-top: 40px; position: relative; min-height: 500px;
 											  background: url(/themes/ansuz_theme_isotope11/images/show_bg.png) top center; }
 
 

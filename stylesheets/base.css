@@ -349,7 +349,9 @@
   padding:10px;
 }
 .articles_container{
-  margin-top: -40px;
+  position: relative;
+  top: -40px;
+  z-index: 100000;
   float:right;
   width:510px;
 }

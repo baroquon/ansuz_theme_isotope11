@@ -368,13 +368,13 @@
   border-bottom:1px dashed #AAAAAA;
   font-size:1.9em;
 }
-#content .blog_post h3.time{
+div#content .blog_post h3.time{
   font-size: 1.2em;
   color: #aaa;
   margin-bottom: 10px;
 }
-#content .tag_cloud h2, #content .blog_post h2{
-  width: 100%;
+div#content .tag_cloud h2, div#content .blog_post h2{
+  width: 100% !important;
   margin-bottom: 0;
 }
 .tag_cloud ul.popularity li{

@@ -72,7 +72,7 @@
         position: absolute;
         font-family:helvetica,  Greyscalebasic, arial, clean, sans-serif;
         right: 40px;
-        bottom: 5px;
+        bottom: 60px;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -82,7 +82,7 @@
           float: left;
         }
         #top-nav a{
-          font-size: 2em;
+          font-size: 1.5em;
           font-weight: normal;
           padding: 0 10px;
           text-decoration: none;
@@ -329,6 +329,68 @@
 .cross-link									{ display: block; width: 62px; margin-top: -14px; 
 											  position: relative; padding-top: 15px; z-index: 9999; }
 .active-thumb 								{ background: transparent url(/themes/ansuz_theme_isotope11/images/icon-uparrowsmallwhite.png) top center no-repeat; }
-
-
-
+.single-article{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.single-article .blog_post{
+  float: left;
+  width: 600px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+  -o-border-radius: 0 15px 15px 15px;
+}
+.blog_post{
+  background-color:#EFEFEF;
+  border:1px solid #BBBBBB;
+  float:right;
+  margin-bottom:20px;
+  margin-right:20px;
+  padding:10px;
+  width:510px;
+}
+.tag_cloud{
+  -moz-box-shadow:0 0 10px #AAAAAA;
+  -o-box-shadow:0 0 10px #AAAAAA;
+  -webkit-box-shadow:0 0 10px #AAAAAA;
+  box-shadow:0 0 10px #AAAAAA;
+  width: 340px;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  padding: 10px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+  -o-border-radius: 0 15px 15px 15px;
+  border-radius: 0 15px 15px 15px;
+}
+ #content .blog_post h2{
+  border-bottom:1px dashed #AAAAAA;
+  font-size:1.9em;
+}
+#content .blog_post h3.time{
+  font-size: 1.2em;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+#content .tag_cloud h2, #content .blog_post h2{
+  width: 100%;
+  margin-bottom: 0;
+}
+.tag_cloud ul.popularity li{
+  display: inline;
+}
+.tag_cloud ul.popularity li a.v-popular{
+  font-size: 100%
+}
+.tag_cloud ul.popularity li a.vv-popular{
+  font-size: 140%
+}
+.tag_cloud ul.popularity li a.vvv-popular{
+  font-size: 180%
+  font-weight: 600;
+}
+.tag_cloud ul.popularity li a.vvvv-popular{
+  font-size: 220%
+  font-weight: 600;
+}

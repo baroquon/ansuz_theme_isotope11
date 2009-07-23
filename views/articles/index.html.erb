@@ -1,5 +1,7 @@
-<% content_for :sidebar do -%>
-  <h2>Tags</h2>
-  <%= tag_cloud -%>
-<% end -%>
-<%= render :partial => 'articles/article', :collection => @blog_posts -%>
+<div class='page'>
+  <div class='tag_cloud'>
+    <h2>Tags</h2>
+    <%= tag_cloud -%>
+  </div>
+  <%= render :partial => 'articles/article', :collection => @blog_posts -%>
+</div>

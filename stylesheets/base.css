@@ -49,7 +49,7 @@
     text-decoration: underline;
   }
   body{
-    background: #fff url(/themes/ansuz_theme_isotope11/images/body-bg.png) repeat-x left top;
+    background: #FFF url(/themes/ansuz_theme_isotope11/images/body-bg.png) repeat-x scroll left top;
     font-family: helvetical, arial, clean, sans-serif;
     margin: 0;
     padding: 0;
@@ -332,6 +332,7 @@
 .single-article{
   margin-left: 10px;
   margin-bottom: 20px;
+  margin-top: -40px;
 }
 .single-article .blog_post{
   float: left;
@@ -343,10 +344,13 @@
 .blog_post{
   background-color:#EFEFEF;
   border:1px solid #BBBBBB;
-  float:right;
   margin-bottom:20px;
   margin-right:0;
   padding:10px;
+}
+.articles_container{
+  margin-top: -40px;
+  float:right;
   width:510px;
 }
 .tag_cloud{
@@ -357,7 +361,7 @@
   width: 340px;
   position: absolute;
   left: 0;
-  top: 0;
+  top: -40px;
   padding: 10px;
   -moz-border-radius: 0 15px 15px 15px;
   -webkit-border-radius: 0 15px 15px 15px;

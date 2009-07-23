@@ -3,5 +3,7 @@
     <h2>Tags</h2>
     <%= tag_cloud -%>
   </div>
-  <%= render :partial => 'articles/article', :collection => @blog_posts -%>
+  <div class='articles_container'>
+    <%= render :partial => 'articles/article', :collection => @blog_posts -%>
+  </div>
 </div>

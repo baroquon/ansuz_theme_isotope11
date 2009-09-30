@@ -61,24 +61,29 @@
   
   </head>
   <body>
-    <div id='wrapper'>
-      <div id='content_wrapper'>
-        <div id="main">
-          <div id='header'>
-              <span class='logotext'><%= get_setting('site_title') %></span>
-            <%= render :partial => "page/top_nav" -%>
-          </div>
-          <div id='content'>
-            <%= render :partial => "page/breadcrumb" if (@page && (@page != @root)) -%>
-            <%= @content_for_layout -%>
-            <%= render :partial => "page/child_nav" if (@page && (!@page.children.empty?)) -%>
-            <div id='sidebar'>
-              <%= yield :sidebar -%>
-            </div>
-          </div>
-          <div class='clear'></div>
-        </div> 
+    <div class='wrapper'>
+      <div class='header'>
+        <div class='logo'>
+          <a href='/'>
+            <span>
+              <%= get_setting('site_title') %>
+            </span>
+          </a>
+        </div>
+        <ul class='menu menu1'>
+          <li>
+            <a href='/pages/contact'>
+              contact us
+            </a>
+          </li>
+        </ul>
       </div>
+      <%= render :partial => "page/top_nav" -%>
+      <div class='content'>
+        <%= @content_for_layout -%>
+        <%= render :partial => "page/child_nav" if (@page && (!@page.children.empty?)) -%>
+      </div> 
+      <div class='clear'></div>
       <%= render :partial => "page/footer" -%>
     </div>
     <script type='text/javascript'>

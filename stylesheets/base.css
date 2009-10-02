@@ -191,6 +191,7 @@ body .wrapper .content .portfolio-listing:hover{
   background-color: #bbb;
 }
 body .wrapper .content .portfolio-listing .portfolio-text{
+  padding-top: 20px;
   width: 400px;
   float: left;
 }

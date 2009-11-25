@@ -328,17 +328,17 @@ body .wrapper .footery .footery-container p{
   display: inline;
 }
 .tag_cloud ul.popularity li a.v-popular{
-  font-size: 100%
+  font-size: 100%;
 }
 .tag_cloud ul.popularity li a.vv-popular{
-  font-size: 140%
+  font-size: 140%;
 }
 .tag_cloud ul.popularity li a.vvv-popular{
-  font-size: 180%
+  font-size: 180%;
   font-weight: 600;
 }
 .tag_cloud ul.popularity li a.vvvv-popular{
-  font-size: 220%
+  font-size: 220%;
   font-weight: 600;
 }
 #navigation h3{
